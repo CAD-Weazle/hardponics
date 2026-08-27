@@ -1,0 +1,31 @@
+AT+RST
+
+AT+CWMODE=1
+
+AT+CWJAP="Crystal Radio","s........rtjes"
+
+AT+CIPSTATUS          -- 2: got IP/3: connected/4: disconnected /5: WiFi connection fail 
+
+AT+CIFSR              -- get module IP
+AT+CIPSTA?            -- SET/query IP adr
+
+AT+CIPMUX=1           -- for server
+AT+CIPSERVER=1,80     -- from ESP8266 to Teraterm
+
+AT+CIPSEND=0,<len>    - send data from Teraterm to ESP8266
+
+
+AT+CIPMUX=0           -- for passthru
+AT+CIPMODE=0          -- for passthru??     
+
+
+
+
+AT+CIPDINFO=1         -- no '+IPD' prefix
+
+
+
+
+192.168.178.141 - or -
+192.168.178.143
+

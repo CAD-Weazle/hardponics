@@ -1,0 +1,19 @@
+adc.c:  // wait for ADC ready & Regular Channel ready  <> add this to older 'adc.c' source
+cli.c: uint8_t pass_thru = 0;    // <> remove later 
+cli.c:    // remove reset condition ESP32 <> needed??
+cli.c:    // toggle WIFI module pass thru mode <> dev only
+cli.c:  // send commandline data to WIFI module <> debug only
+cli.c:  // echo all data from ESP32 <> debug only
+control.c://esp32_wd_test (); //<> ?????
+control.c:  // log data to UART only, every second <> debug only
+ec.c://c_cell = c_adj * / (1 + EC_ALFA*(c_temp - 25.0));   // <> try this
+esp32.c:// apply reset condition to WIFI module <> power consumption test
+esp32.c:  led_red_off (); // <> debug only
+esp32.c:// remove reset condition to WIFI module <> power consumption test
+esp32.c:  led_red_on (); // <> debug only
+esp32.c:  printf2 (">ESP32 watchdog reset\n"); // <> remove later
+Binary file nft-main.elf matches
+pll.c://FLASH->ACR &= ~FLASH_ACR_ACC64;               // reset ACC64 <> needed?
+ports.c:  [ 9] = {GPIO_MODE_IN,  GPIO_SPEED_FREQ_HIGH, GPIO_OTYPE_OD, GPIO_PULLUP},                  // <> fix this
+ports.c:  [13] = {GPIO_MODE_IN,  GPIO_SPEED_FREQ_LOW,  GPIO_OTYPE_PP, GPIO_NOPULL},                  // SPEED0 <> now IBAT sign
+ws2815.c:// display 'barber pole' pattern <> test only

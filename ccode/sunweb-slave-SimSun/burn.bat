@@ -1,0 +1,1 @@
+openocd -f control.cfg -c "program simsun.hex reset exit"

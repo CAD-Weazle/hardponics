@@ -1,0 +1,70 @@
+# file    : chart.py
+# author  : rb
+# purpose : Qt charting
+# date    : 220804
+# last    : 220804
+
+from numpy import *
+from pyqtgraph.Qt import QtGui, QtCore
+import pyqtgraph as pg
+import time
+import threading
+
+
+### START QtApp #####
+# you MUST do this once (initialize things)
+app = QtGui.QApplication([])             
+
+# creates a window
+win = pg.GraphicsWindow (title="- real-time data from serial port -") 
+
+# creates empty space for the plot in the window
+plt = win.addPlot (title="Realtime plot")  
+
+# create an empty 'plot' (a curve to plot)
+curve = plt.plot ()                        
+
+# setup chart
+plt.showGrid (x=True,y=True)
+plt.addLegend ()
+plt.setLabel ("left"  , "Temperature", units='oC')
+plt.setLabel ("bottom", "Time" , units='s')
+#plt.setXRange (0, 20)
+plt.setYRange (20.0, 30.0)
+#???.setTickSpacing (1, 0.1)
+plt.setWindowTitle ("- Test PyQtGraph Plot -")
+
+windowWidth = 500                        # width of the window displaying the curve
+Xm = linspace (0, 0, windowWidth)        # create array that will contain the relevant time series     
+ptr = -windowWidth                       # set first x position
+
+# realtime data plot
+def update (slst):
+  global curve, ptr, Xm    
+
+  time.sleep (0.01)
+
+  temp = float(slst[4])
+  humi = float(slst[6])
+
+  # shift samples & add newest
+  Xm[:-1] = Xm[1:]                      
+  Xm[-1] = temp              
+
+  # update x position for displaying the curve
+  ptr += 1                              
+
+  # set the curve with this data
+  curve.setData (Xm)
+
+  # set x position in the graph to 0                    
+  curve.setPos (ptr,0)                  
+
+  # process plot
+  QtGui.QApplication.processEvents()    
+
+# end QtApp
+#pg.QtGui.QApplication.exec_()
+
+
+

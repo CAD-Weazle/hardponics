@@ -1,0 +1,550 @@
+// file    : caps.c
+// author  : rb
+// purpose : STM32L1xx Touch IO port routines
+// date    : 220304
+// last    : 220530
+//
+// note    : sampling capacitor on PB5 - group 6
+//           'SOIL0'  capacitor on PB6 - group 6
+//           'SOIL1'  capacitor on PB7 - group 6
+//           'SOIL2'  capacitor on PB4 - group 6 (patched from PB8)
+//
+// State  Channel I/O configuration                 sampling capacitor I/O configuration
+// 
+//  #1    output push-pull low                      output push-pull low
+//  #2    input floating                            input floating with hysteresis disabled 
+//  #3    output push-pull high                     input floating with hysteresis disabled 
+//  #4    input floating                            input floating with hysteresis disabled 
+//  #5    input floating with analog switch closed  input floating with hysteresis disabled & analog switch closed
+//  #6    input floating                            input floating with hysteresis disable
+
+int soil_read (int sensor);
+void tcs_switches (int num);
+
+#define SAMPLE_NUM 2000
+
+#include "includes.h"
+
+int soil_gpio[3] = {6, 7, 4};
+
+// GPIO bit fields
+//static const struct port_info
+//{
+//  uint16_t mode : 2;
+//  uint16_t speed: 2;
+//  uint16_t od   : 1;
+//  uint16_t pupd : 2;
+//  uint16_t afr  : 4;
+//} port_info_type; 
+
+// init GPIO Port
+//static void init_port (GPIO_TypeDef *GPIOx, const struct port_info *port)
+//{
+//  int i;
+//  uint32_t mode = 0, speed = 0, type = 0, pupd = 0;
+//  uint64_t afr = 0;
+//
+//  for (i = 0; i < 16; i++)
+//  {
+//    mode  |= (uint32_t) port[i].mode  << i*2;
+//    speed |= (uint32_t) port[i].speed << i*2;
+//    pupd  |= (uint32_t) port[i].pupd  << i*2;
+//    type  |= (uint32_t) port[i].od    << i;
+//    afr   |= (uint64_t) port[i].afr   << i*4;
+//  }
+//
+//  GPIOx->AFR[0]  = afr;           // set AFR registers first
+//  GPIOx->AFR[1]  = afr >> 32;     // set AFR registers first
+//  GPIOx->MODER   = mode;
+//  GPIOx->OSPEEDR = speed;
+//  GPIOx->PUPDR   = pupd;
+//  GPIOx->OTYPER  = type;
+//}
+
+// setup GPIOs for Touch operation
+void init_tcs (void)
+{
+  // enable Comparator interface clock to access RI registers
+  RCC->APB1ENR |= RCC_APB1ENR_COMPEN;
+
+  // no hysteresis on PB5 (& PB6, PB7, PB8???)
+  RI->HYSCR1 = (1 << (5 + 16))  // add 16 for high word bits
+             | (1 << (6 + 16))
+             | (1 << (7 + 16))
+             | (1 << (8 + 16));
+ 
+  // set output value
+  gpio_clr (GPIOB, 5);           // PB5 is zero
+  gpio_clr (GPIOB, 6);           // PB6 is zero
+  gpio_clr (GPIOB, 7);           // PB7 is zero
+  gpio_clr (GPIOB, 8);           // PB8 is zero
+
+  // ADC analog switches open !!! - st
+  RI->ASCR1 &= (uint32_t)(~0x80000000); // ADC analog switches closed if the corresponding I/O switch is also closed (????)
+  RI->ASCR2 &= (uint32_t)(~0b00011000000000000000000000110000);
+  
+//printf2 ("ASCR1: 0x%08x\n", RI->ASCR1); // ASCR1: 0x00000000
+//printf2 ("ASCR2: 0x%08x\n", RI->ASCR2); // ASCR2: 0x00000000
+}
+
+// sampling capacitor discharge
+void tsc_cs_discharge (void)
+{
+  // GPIO drive zero
+  gpio_clr (GPIOB, 5);
+
+  // GPIO to output
+  int tmp = GPIOB->MODER;
+
+  tmp &= ~(0b11 << (5*2));
+  tmp |=  (0b01 << (5*2));
+
+  GPIOB->MODER = tmp;
+  
+//printf2 ("MODER: 0x%08x\n", GPIOB->MODER);
+}
+
+// sampling capacitor floating
+void tsc_cs_float (void)
+{
+  // GPIO to input
+  int tmp = GPIOB->MODER;
+
+  tmp &= ~(0b11 << (5*2));
+
+  GPIOB->MODER = tmp;
+
+}
+
+
+
+// touch capacitor discharge
+void tsc_ct_discharge (int num)
+{
+  // sanity check
+  if (num >= 3)
+    return;
+
+  // GPIO to output - drive zero
+  gpio_clr (GPIOB, soil_gpio[num]);           // PB6 is zero
+
+  int tmp = GPIOB->MODER;
+
+  tmp &= ~(0b11 << (soil_gpio[num]*2));
+  tmp |=  (0b01 << (soil_gpio[num]*2));
+
+  GPIOB->MODER = tmp;
+}
+
+// touch capacitor floating
+void tsc_ct_float (int num)
+{
+  // GPIO input
+  int tmp = GPIOB->MODER;
+
+  tmp &= ~(3UL << (soil_gpio[num]*2)); // input
+
+  GPIOB->MODER = tmp;
+}
+
+// touch capacitor charge
+void tsc_ct_charge (int num)
+{
+  // GPIO output - drive one
+  gpio_set (GPIOB, soil_gpio[num]);
+
+  int tmp = GPIOB->MODER;
+
+  tmp &= ~(0b11 << (soil_gpio[num]*2)); // clear all
+  tmp |=  (0b01 << (soil_gpio[num]*2)); // output
+
+  GPIOB->MODER = tmp;
+}
+
+// adjust analog switch network Routing Interface
+void tcs_switches (int num)
+{
+  switch (num)
+  {
+    // select sampling cap & sensor SOIL0
+    case 0:
+    {
+      RI->ASCR2 = (1 << 5) | (1 << 27);  // switches closed - PB5/PB6 (GRP6-2 / GR6-3)
+      break;
+    }
+
+    // select sampling cap & sensor SOIL1
+    case 1:
+    {
+      RI->ASCR2 = (1 << 5) | (1 << 28);  // switches closed - PB5/PB7 (GRP6-2 / GR6-4)
+      break;
+    }
+
+    // select sampling cap & sensor SOIL2
+    case 2:
+    {
+      RI->ASCR2 = (1 << 5) | (1 << 4);  // switches closed - PB5/PB4 (GRP6-2 / GR6-1)
+      break;
+    }
+
+    default:	
+       break;
+  }
+}
+
+#define TCS_START    0
+#define TCS_SAMPLE   1
+#define TCS_CHECK    2
+
+int soil_read (int sensor)
+{
+  static int tcs_state = TCS_START;
+  static int cnt = 0;
+ 
+  while (1)
+  {
+    switch (tcs_state)
+    {
+      case TCS_START:
+      {
+        cnt = 0;
+
+        tsc_cs_discharge ();
+        tsc_ct_discharge (sensor);
+    
+        usleep (500);
+      }
+ 
+      // float Ct & Cs    
+      case TCS_SAMPLE:
+      {
+        tsc_cs_float ();
+        tsc_ct_float (sensor);
+    
+        usleep (10);
+    
+        tsc_ct_charge (sensor);
+        tsc_ct_float (sensor);
+    
+        tcs_switches (sensor);
+      }
+
+      // next round or terminate    
+      case TCS_CHECK:
+      {
+        RI->ASCR2 = 0;    // all switches open
+       
+        if (GPIOB->IDR & (1 << 5))
+        {
+          tcs_state = TCS_START;
+
+          return (cnt);
+        }
+        else
+        {
+          cnt++;
+          tcs_state = TCS_SAMPLE;
+        }
+        break;
+      }
+    
+      default:
+        break;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+int soil_read (int sensor)
+{
+  static int cnt = 0;
+  static int done = 0;
+  int busy = 1;
+  
+  while (busy)
+  {
+    switch (tcs_state)
+    {
+      case TCS_START:
+      {
+        cnt = 0;
+        tcs_state = TCS_PHASE1;
+      //break;
+      }
+    
+      // discharge Ct & Cs
+      case TCS_PHASE1:
+      {
+        tsc_cs_discharge ();
+        tsc_ct_discharge (sensor);
+    
+        usleep (500);
+    
+        tcs_state = TCS_PHASE2;
+      //break;
+      }
+
+      // float Ct & Cs    
+      case TCS_PHASE2:
+      {
+        tsc_cs_float ();
+        tsc_ct_float (sensor);
+    
+        usleep (10);
+    
+        tcs_state = TCS_PHASE3;
+      //break;
+      }
+
+      // charge Ct    
+      case TCS_PHASE3:
+      {
+        tsc_ct_charge (sensor);
+    
+      //usleep (2);
+    
+        tcs_state = TCS_PHASE4;
+      //break;
+      }
+
+      // float Ct    
+      case TCS_PHASE4:
+      {
+        tsc_ct_float (sensor);
+    
+      //usleep (10);
+    
+        tcs_state = TCS_PHASE5;
+      //break;
+      }
+
+      // charge transfer (sure?)    
+      case TCS_PHASE5:
+      {
+        switch (sensor)
+		{
+	      case 0:
+		    RI->ASCR2 = (1 << 5) | (1 << 27);  // switches closed - PB5/PB6 (GRP6-2 / GR6-3)
+			break;
+
+          case 1:
+		    RI->ASCR2 = (1 << 5) | (1 << 28);  // switches closed - PB5/PB7 (GRP6-2 / GR6-4)
+			break;
+			
+	      case 2:
+		    RI->ASCR2 = (1 << 5) | (1 << 4);  // switches closed - PB5/PB4 (GRP6-2 / GR6-1)
+			break;
+
+          default:	
+		    break;
+        }
+    
+      //usleep (20);
+    
+        tcs_state = TCS_PHASE6;
+      //break;
+      }
+
+      // compare Cs 'full'    
+      case TCS_PHASE6:
+      {
+        // check PB5
+        if (GPIOB->IDR & (1 << 5))
+          done = 1;      
+        else
+          cnt++;
+    
+        tcs_state = TCS_PHASE7;
+        break;
+      }
+
+      // next round or terminate    
+      case TCS_PHASE7:
+      {
+        RI->ASCR2 = 0;    // all switches open
+    
+      //usleep (10);
+    
+        if (done)
+        {
+          busy = 0;
+          done = 0;
+
+          tcs_state = TCS_START;
+
+          return (cnt);
+        }
+        else
+          tcs_state = TCS_PHASE2;
+        break;
+      }
+    
+      default:
+        break;
+    }
+  }
+}
+*/
+
+
+
+
+
+
+
+/*
+void tcs_next (void)
+{
+  static int cnt = 0;
+  static int done = 0;
+  int busy = 1;
+  int sensor = 0;
+  
+  while (busy)
+  {
+    switch (tcs_state)
+    {
+      case TCS_START:
+      {
+        cnt = 0;
+        tcs_state = TCS_PHASE1;
+      //break;
+      }
+    
+      // discharge Ct & Cs
+      case TCS_PHASE1:
+      {
+        tsc_cs_discharge ();
+        tsc_ct_discharge (sensor);
+    
+        usleep (500);
+    
+        tcs_state = TCS_PHASE2;
+      //break;
+      }
+
+      // float Ct & Cs    
+      case TCS_PHASE2:
+      {
+        tsc_cs_float ();
+        tsc_ct_float (sensor);
+    
+        usleep (10);
+    
+        tcs_state = TCS_PHASE3;
+      //break;
+      }
+
+      // charge Ct    
+      case TCS_PHASE3:
+      {
+        tsc_ct_charge (sensor);
+    
+      //usleep (2);
+    
+        tcs_state = TCS_PHASE4;
+      //break;
+      }
+
+      // float Ct    
+      case TCS_PHASE4:
+      {
+        tsc_ct_float (sensor);
+    
+      //usleep (10);
+    
+        tcs_state = TCS_PHASE5;
+      //break;
+      }
+
+      // charge transfer (sure?)    
+      case TCS_PHASE5:
+      {
+        switch (sensor)
+		{
+	      case 0:
+		    RI->ASCR2 = (1 << 5) | (1 << 27);  // switches closed - PB5/PB6 (GRP6-2 / GR6-3)
+			break;
+
+          case 1:
+		    RI->ASCR2 = (1 << 5) | (1 << 28);  // switches closed - PB5/PB7 (GRP6-2 / GR6-4)
+			break;
+			
+	      case 2:
+		    RI->ASCR2 = (1 << 5) | (1 << 4);  // switches closed - PB5/PB4 (GRP6-2 / GR6-1)
+			break;
+
+          default:	
+		    break;
+        }
+    
+      //usleep (20);
+    
+        tcs_state = TCS_PHASE6;
+      //break;
+      }
+
+      // compare Cs 'full'    
+      case TCS_PHASE6:
+      {
+        // check PB5
+        if (GPIOB->IDR & (1 << 5))
+          done = 1;      
+        else
+          cnt++;
+    
+        tcs_state = TCS_PHASE7;
+        break;
+      }
+
+      // next round or terminate    
+      case TCS_PHASE7:
+      {
+        RI->ASCR2 = 0;    // all switches open
+    
+      //usleep (10);
+    
+        if (done)
+        {
+          printf2 ("cnt: %d %d\n", cnt, cnt);
+
+          busy = 0;
+          done = 0;
+          cnt = 0;
+          tcs_state = TCS_START;
+          return;
+        }
+        else
+          tcs_state = TCS_PHASE2;
+        break;
+      }
+    
+      default:
+        break;
+    }
+  }
+}
+
+*/

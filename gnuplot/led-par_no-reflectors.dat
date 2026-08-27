@@ -1,0 +1,17 @@
+# LED light intensity with PAR meter
+# 4.57 uV/umol/m^2.s
+# open GroBox, no reflectors
+
+DRED   RBLU   PAR-RED  PAR-BLU  PAR-BOTH [uV] 
+  0      0       0         0        0
+ 10     10     118        29      148
+ 20     20     267        77      343
+ 30     30     404       119      521
+ 40     40     563       166      731
+ 50     50     729       212      943
+ 60     60     872       251     1123
+ 70     70    1033       296     1338 
+ 80     80    1177       334     1523
+ 90     90    1345       377     1748
+100    100    1490       420     1906
+

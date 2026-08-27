@@ -1,0 +1,1 @@
+D:\OpenOCD\bin\openocd -f stlink.cfg -c "program nft-main.hex reset exit"

@@ -1,0 +1,1074 @@
+Archive member included because of file (symbol)
+
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+                              ntc.o (log)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-e_log.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o) (__ieee754_log)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o) (__fpclassifyd)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o) (__fdlib_version)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o) (matherr)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_nan.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o) (nan)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                              system_stm32f0xx.o (__aeabi_uidiv)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                              ticker.o (__aeabi_idiv)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o) (__aeabi_dcmpeq)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+                              ntc.o (__aeabi_d2uiz)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+                              ntc.o (__aeabi_fmul)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsisf.o)
+                              ntc.o (__aeabi_ui2f)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+                              ntc.o (__aeabi_dadd)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+                              ntc.o (__aeabi_ddiv)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__gedf2)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__ledf2)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+                              ntc.o (__aeabi_dmul)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+                              ntc.o (__aeabi_dsub)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o) (__aeabi_d2iz)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-e_log.o) (__aeabi_i2d)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+                              ntc.o (__aeabi_f2d)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o) (__clzsi2)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-ctype_.o)
+                              cli.o (__ctype_ptr__)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o) (__errno)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+                              d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o) (_impure_ptr)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strchr.o)
+                              cli.o (strchr)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+                              cli.o (strcmp)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+                              printf.o (strlen)
+d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strnlen.o)
+                              printf.o (strnlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+argv                0x28              cli.o
+argc                0x4               cli.o
+rtc_time            0x1c              rtc.o
+time_dawn           0x4               simsun.o
+rx_buf              0x10              sunweb-slave.o
+ntc_temp            0x2               ntc.o
+buf_len             0x1               cli.o
+tx_buf              0x10              sunweb-slave.o
+buf                 0x80              cli.o
+time_now            0x4               simsun.o
+time_dusk           0x4               simsun.o
+dev_id              0x1               sunweb-slave.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00007c00         xr
+FLASH_USER       0x08007c00         0x00000400         xr
+RAM              0x20000000         0x00001800         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD system_stm32f0xx.o
+LOAD main.o
+LOAD power.o
+LOAD clock.o
+LOAD ports.o
+LOAD ticker.o
+LOAD rtc.o
+LOAD flash.o
+LOAD uart1.o
+LOAD uart2.o
+LOAD printf.o
+LOAD printf2.o
+LOAD cli.o
+LOAD adc.o
+LOAD leds.o
+LOAD ntc.o
+LOAD simsun.o
+LOAD sunweb-slave.o
+LOAD dump.o
+LOAD C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+LOAD d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a
+START GROUP
+LOAD d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a
+LOAD d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc.a
+END GROUP
+                0x20001800                _estack = 0x20001800
+                0x00000200                _Min_Heap_Size = 0x200
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000       0xc0
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xc0 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+                0x08000000                g_pfnVectors
+                0x080000c0                . = ALIGN (0x4)
+
+.text           0x080000c0     0x5a70
+                0x080000c0                . = ALIGN (0x4)
+ *(.text)
+ .text          0x080000c0       0xd0 system_stm32f0xx.o
+                0x080000c0                SystemInit
+                0x08000120                SystemCoreClockUpdate
+ .text          0x08000190        0x0 main.o
+ .text          0x08000190       0x10 power.o
+                0x08000190                init_power
+ .text          0x080001a0       0xf8 clock.o
+                0x080001a0                init_clock
+                0x080001e4                rcc_set_systemclock
+                0x080001f8                rcc_start_lsi
+                0x08000210                rcc_stop_lsi
+                0x08000220                rcc_start_hsi
+                0x08000238                rcc_stop_hsi
+                0x08000248                rcc_start_hse
+                0x08000264                rcc_start_pll
+                0x08000280                rcc_stop_pll
+ .text          0x08000298      0x240 ports.o
+                0x08000358                init_ports
+                0x08000398                led_red_on
+                0x080003a8                led_red_off
+                0x080003b8                led_red_toggle
+                0x080003d8                led_red_flash
+                0x080003f4                led_grn_on
+                0x08000414                led_grn_off
+                0x08000434                led_grn_toggle
+                0x0800046c                led_grn_flash
+                0x0800049c                rs485_dir
+                0x080004b8                led_fred_on
+                0x080004c8                led_fred_off
+ .text          0x080004d8      0x1fc ticker.o
+                0x080004d8                TIM1_BRK_UP_TRG_COM_IRQHandler
+                0x08000530                init_ticker
+                0x08000628                usleep
+                0x08000640                msleep
+                0x08000670                pwm_set
+ .text          0x080006d4      0x400 rtc.o
+                0x080006d4                rtc_update_time
+                0x0800073c                rtc_convert_time
+                0x08000760                rtc_log_start
+                0x0800076c                rtc_log_stop
+                0x08000778                rtc_dump_time
+                0x080007a0                rtc_log
+                0x080007b4                rtc_enter_initmode
+                0x080007e8                rtc_leave_initmode
+                0x0800081c                init_rtc
+                0x08000894                rtc_set_time
+                0x08000950                rtc_set_time_bcd
+                0x080009b4                rtc_dump_registers
+ .text          0x08000ad4      0x364 flash.o
+                0x08000ad4                flash_read_ntcerr
+                0x08000aec                flash_dump_ntcerr
+                0x08000b24                flash_write
+                0x08000b7c                flash_erase_page
+                0x08000bd8                init_flash
+                0x08000c14                flash_write_ntcerr
+                0x08000c60                flash_id_read
+                0x08000c7c                flash_unlock
+                0x08000ca4                flash_ob_unlock
+                0x08000cdc                flash_ob_write
+                0x08000d24                flash_ob_erase
+                0x08000d5c                flash_id_write
+                0x08000d94                flash_dump_optionbytes
+                0x08000dc4                flash_get_uidseed
+                0x08000de4                flash_dump_registers
+ .text          0x08000e38      0x16c uart1.o
+                0x08000e38                USART1_IRQHandler
+                0x08000e9c                uart1_putc
+                0x08000ec8                uart1_flush
+                0x08000edc                uart1_puts
+                0x08000f30                uart1_getc
+                0x08000f64                init_uart1
+ .text          0x08000fa4      0x134 uart2.o
+                0x08000fa4                USART2_IRQHandler
+                0x08001008                uart2_putc
+                0x08001044                uart2_flush
+                0x08001058                uart2_puts
+                0x08001074                uart2_getc
+                0x08001098                init_uart2
+ .text          0x080010d8      0x37c printf.o
+                0x080013c4                printf
+                0x080013f4                debug
+                0x08001430                putchar
+                0x0800143c                puts
+                0x0800144c                getchar
+ .text          0x08001454      0x358 printf2.o
+                0x08001454                vsprintf2
+                0x08001740                printf2
+                0x08001770                debug2
+ .text          0x080017ac      0xb54 cli.o
+                0x080017ac                prompt
+                0x080017bc                first_prompt
+                0x080017cc                rb_atoi
+                0x08001814                rb_atol
+                0x0800185c                rb_atoh
+                0x0800189c                skipws
+                0x080018ac                split_line
+                0x08001904                version
+                0x08001914                help
+                0x0800225c                parse_line
+                0x08002268                poll_cli
+ .text          0x08002300       0xd8 adc.o
+                0x08002300                init_adc
+                0x08002328                adc_read_channel
+                0x08002358                adc_dump_registers
+ .text          0x080023d8       0xac leds.o
+                0x080023d8                leds_dred
+                0x08002420                leds_rblu
+                0x08002448                leds_fred
+                0x0800246c                init_leds
+ .text          0x08002484      0x19c ntc.o
+                0x08002484                ntc_gettemp
+                0x08002490                ntc_convert
+                0x08002558                ntc_update
+                0x08002584                ntc_dump
+                0x080025b0                ntc_get_error
+                0x080025d0                init_ntc
+                0x080025d8                ntc_set_error
+                0x080025ec                ntc_dump_error
+ .text          0x08002620      0x1a4 simsun.o
+                0x08002620                init_simsun
+                0x08002658                simsun_update
+                0x080026b4                simsun_start
+                0x080026c0                simsun_stop
+                0x080026d0                simsun_set_dawn
+                0x080026f8                simsun_set_dusk
+                0x08002720                simsun_dred_max
+                0x0800272c                simsun_rblu_max
+                0x08002738                simsun_get_dred
+                0x08002744                simsun_get_rblu
+                0x08002750                simsun_get_fred
+                0x0800275c                simsun_dump_state
+ .text          0x080027c4      0x5c0 sunweb-slave.o
+                0x080027c4                init_sunweb
+                0x080027d4                poll_bus
+                0x08002920                sw_rxcheck
+                0x0800297c                sw_handle_attach
+                0x080029b4                sw_txpack
+                0x080029f0                sw_txsend
+                0x08002a84                sw_handle_probe
+                0x08002a98                sw_handle_command
+                0x08002ccc                sw_parse_rxpacket
+                0x08002d20                parse_bus
+                0x08002d44                sw_txdump
+                0x08002d60                sw_rxdump
+ .text          0x08002d84      0x168 dump.o
+                0x08002d84                dump_ascii
+ .text          0x08002eec       0x14 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+ .text          0x08002f00        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+ .text          0x08002f00        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-e_log.o)
+ .text          0x08002f00        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
+ .text          0x08002f00        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+ .text          0x08002f00        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .text          0x08002f00        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_nan.o)
+ .text          0x08002f00      0x120 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x08002f00                __aeabi_uidiv
+                0x08002f00                __udivsi3
+                0x0800300c                __aeabi_uidivmod
+ .text          0x08003020      0x1e0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                0x08003020                __divsi3
+                0x08003020                __aeabi_idiv
+                0x080031ec                __aeabi_idivmod
+ .text          0x08003200        0x4 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x08003200                __aeabi_idiv0
+                0x08003200                __aeabi_ldiv0
+ .text          0x08003204       0x7c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                0x08003204                __aeabi_cdrcmple
+                0x08003214                __aeabi_cdcmple
+                0x08003214                __aeabi_cdcmpeq
+                0x08003224                __aeabi_dcmpeq
+                0x08003230                __aeabi_dcmplt
+                0x08003244                __aeabi_dcmple
+                0x08003258                __aeabi_dcmpgt
+                0x0800326c                __aeabi_dcmpge
+ .text          0x08003280       0x3c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+                0x08003280                __aeabi_d2uiz
+                0x08003280                __fixunsdfsi
+ .text          0x080032bc      0x264 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+                0x080032bc                __aeabi_fmul
+ .text          0x08003520       0x90 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsisf.o)
+                0x08003520                __aeabi_ui2f
+ .text          0x080035b0      0x650 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+                0x080035b0                __aeabi_dadd
+ .text          0x08003c00      0x648 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+                0x08003c00                __aeabi_ddiv
+ .text          0x08004248       0x88 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+                0x08004248                __nedf2
+                0x08004248                __eqdf2
+ .text          0x080042d0       0xe0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+                0x080042d0                __gedf2
+                0x080042d0                __gtdf2
+ .text          0x080043b0       0xcc d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+                0x080043b0                __ledf2
+                0x080043b0                __ltdf2
+ .text          0x0800447c      0x534 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+                0x0800447c                __aeabi_dmul
+ .text          0x080049b0      0x6f4 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+                0x080049b0                __aeabi_dsub
+ .text          0x080050a4       0x6c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+                0x080050a4                __aeabi_d2iz
+ .text          0x08005110       0x78 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+                0x08005110                __aeabi_i2d
+ .text          0x08005188       0xa8 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+                0x08005188                __aeabi_f2d
+ .text          0x08005230       0x3c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+                0x08005230                __clzsi2
+ .text          0x0800526c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-ctype_.o)
+ .text          0x0800526c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .text          0x0800526c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .text          0x0800526c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strchr.o)
+ .text          0x0800526c       0x88 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+                0x0800526c                strcmp
+ .text          0x080052f4        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+ .text          0x080052f4        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strnlen.o)
+ *(.text*)
+ .text.startup  0x080052f4       0x88 main.o
+                0x080052f4                main
+ .text.Reset_Handler
+                0x0800537c       0x7c C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+                0x0800537c                Reset_Handler
+ .text.Default_Handler
+                0x080053f8        0x2 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+                0x080053f8                TIM1_CC_IRQHandler
+                0x080053f8                TSC_IRQHandler
+                0x080053f8                HardFault_Handler
+                0x080053f8                SysTick_Handler
+                0x080053f8                PendSV_Handler
+                0x080053f8                NMI_Handler
+                0x080053f8                I2C1_IRQHandler
+                0x080053f8                RCC_CRS_IRQHandler
+                0x080053f8                SPI1_IRQHandler
+                0x080053f8                EXTI2_3_IRQHandler
+                0x080053f8                ADC1_IRQHandler
+                0x080053f8                TIM17_IRQHandler
+                0x080053f8                CEC_CAN_IRQHandler
+                0x080053f8                RTC_IRQHandler
+                0x080053f8                PVD_VDDIO2_IRQHandler
+                0x080053f8                TIM16_IRQHandler
+                0x080053f8                TIM3_IRQHandler
+                0x080053f8                EXTI4_15_IRQHandler
+                0x080053f8                DMA1_Channel1_IRQHandler
+                0x080053f8                Default_Handler
+                0x080053f8                TIM14_IRQHandler
+                0x080053f8                DMA1_Channel4_5_IRQHandler
+                0x080053f8                EXTI0_1_IRQHandler
+                0x080053f8                USB_IRQHandler
+                0x080053f8                SPI2_IRQHandler
+                0x080053f8                SVC_Handler
+                0x080053f8                WWDG_IRQHandler
+                0x080053f8                TIM2_IRQHandler
+                0x080053f8                DMA1_Channel2_3_IRQHandler
+                0x080053f8                FLASH_IRQHandler
+ *fill*         0x080053fa        0x2 
+ .text.log      0x080053fc      0x118 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+                0x080053fc                log
+ .text.__ieee754_log
+                0x08005514      0x40c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-e_log.o)
+                0x08005514                __ieee754_log
+ .text.__fpclassifyd
+                0x08005920       0x5c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
+                0x08005920                __fpclassifyd
+ .text.matherr  0x0800597c        0x4 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+                0x0800597c                matherr
+ .text.nan      0x08005980        0xc d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_nan.o)
+                0x08005980                nan
+ .text.__errno  0x0800598c        0xc d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+                0x0800598c                __errno
+ .text.strchr   0x08005998       0xd8 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strchr.o)
+                0x08005998                strchr
+ .text.strlen   0x08005a70       0x68 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+                0x08005a70                strlen
+ .text.strnlen  0x08005ad8       0x30 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strnlen.o)
+                0x08005ad8                strnlen
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08005b08       0x28 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+ *(.init)
+ *(.fini)
+                0x08005b30                . = ALIGN (0x4)
+                0x08005b30                _etext = .
+
+.vfp11_veneer   0x08005b30        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08005b30        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08005b30        0x0
+ .iplt          0x00000000        0x0 system_stm32f0xx.o
+
+.rodata         0x08005b30      0xe48
+                0x08005b30                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x08005b30       0x18 system_stm32f0xx.o
+                0x08005b30                AHBPrescTable
+                0x08005b40                APBPrescTable
+ .rodata        0x08005b48       0x60 ports.o
+ .rodata        0x08005ba8       0x84 printf.o
+ .rodata        0x08005c2c       0x84 printf2.o
+ .rodata        0x08005cb0       0x40 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .rodata        0x08005cf0       0x40 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .rodata        0x08005d30       0x40 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ *(.rodata*)
+ .rodata.str1.4
+                0x08005d70      0x21e rtc.o
+                                0x224 (size before relaxing)
+ *fill*         0x08005f8e        0x2 
+ .rodata.str1.4
+                0x08005f90      0x13f flash.o
+                                0x140 (size before relaxing)
+ *fill*         0x080060cf        0x1 
+ .rodata.str1.4
+                0x080060d0       0x21 printf.o
+                                 0x28 (size before relaxing)
+ .rodata.str1.4
+                0x00000000       0x28 printf2.o
+ *fill*         0x080060f1        0x3 
+ .rodata.str1.4
+                0x080060f4      0x289 cli.o
+                                0x290 (size before relaxing)
+ *fill*         0x0800637d        0x3 
+ .rodata.str1.4
+                0x08006380       0xc8 adc.o
+ .rodata.str1.4
+                0x08006448       0x48 leds.o
+ .rodata.str1.4
+                0x08006490       0x3e ntc.o
+                                 0x40 (size before relaxing)
+ *fill*         0x080064ce        0x2 
+ .rodata.str1.4
+                0x080064d0       0x4a simsun.o
+                                 0x4c (size before relaxing)
+ *fill*         0x0800651a        0x2 
+ .rodata.str1.4
+                0x0800651c      0x325 sunweb-slave.o
+                                0x388 (size before relaxing)
+ *fill*         0x08006841        0x3 
+ .rodata.str1.4
+                0x08006844       0x22 dump.o
+                                 0x30 (size before relaxing)
+ *fill*         0x08006866        0x2 
+ .rodata.str1.4
+                0x08006868        0x4 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+                                  0x8 (size before relaxing)
+ .rodata._ctype_
+                0x0800686c      0x104 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-ctype_.o)
+                0x0800686c                _ctype_
+ .rodata.str1.4
+                0x08006970        0x4 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x08006974        0x4 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+                0x08006974                _global_impure_ptr
+                0x08006978                . = ALIGN (0x4)
+
+.rel.dyn        0x08006978        0x0
+ .rel.iplt      0x00000000        0x0 system_stm32f0xx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08006978        0x0
+                0x08006978                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08006978                __exidx_end = .
+
+.preinit_array  0x08006978        0x0
+                0x08006978                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08006978                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08006978        0x0
+                0x08006978                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x08006978                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08006978        0x0
+                0x08006978                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x08006978                PROVIDE (__fini_array_end, .)
+                0x08006978                _sidata = LOADADDR (.data)
+
+.data           0x20000000      0x444 load address 0x08006978
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000        0x4 system_stm32f0xx.o
+                0x20000000                SystemCoreClock
+ .data          0x20000004        0x0 main.o
+ .data          0x20000004        0x0 power.o
+ .data          0x20000004        0x0 clock.o
+ .data          0x20000004        0x0 ports.o
+ .data          0x20000004        0x0 ticker.o
+ .data          0x20000004        0x0 rtc.o
+ .data          0x20000004        0x0 flash.o
+ .data          0x20000004        0x0 uart1.o
+ .data          0x20000004        0x0 uart2.o
+ .data          0x20000004        0x0 printf.o
+ .data          0x20000004        0x0 printf2.o
+ .data          0x20000004        0x0 cli.o
+ .data          0x20000004        0x0 adc.o
+ .data          0x20000004        0x0 leds.o
+ .data          0x20000004        0x0 ntc.o
+ .data          0x20000004        0x8 simsun.o
+                0x20000004                already_off
+                0x20000008                dred_max
+                0x20000009                rblu_max
+ .data          0x2000000c        0x0 sunweb-slave.o
+ .data          0x2000000c        0x0 dump.o
+ .data          0x2000000c        0x0 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-e_log.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_nan.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsisf.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-ctype_.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strchr.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+ .data          0x2000000c        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strnlen.o)
+ *(.data*)
+ .data.__fdlib_version
+                0x2000000c        0x1 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+                0x2000000c                __fdlib_version
+ *fill*         0x2000000d        0x3 
+ .data.__ctype_ptr__
+                0x20000010        0x4 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-ctype_.o)
+                0x20000010                __ctype_ptr__
+ *fill*         0x20000014        0x4 
+ .data.impure_data
+                0x20000018      0x428 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000440        0x4 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+                0x20000440                _impure_ptr
+                0x20000444                . = ALIGN (0x4)
+                0x20000444                _edata = .
+
+.igot.plt       0x20000444        0x0 load address 0x08006dbc
+ .igot.plt      0x00000000        0x0 system_stm32f0xx.o
+                0x20000444                . = ALIGN (0x4)
+
+.bss            0x20000444      0x540 load address 0x08006dbc
+                0x20000444                _sbss = .
+                0x20000444                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000444        0x0 system_stm32f0xx.o
+ .bss           0x20000444        0x0 main.o
+ .bss           0x20000444        0x0 power.o
+ .bss           0x20000444        0x0 clock.o
+ .bss           0x20000444        0x0 ports.o
+ .bss           0x20000444        0x6 ticker.o
+                0x20000446                csec_elapsed
+                0x20000448                dsec_elapsed
+                0x20000449                sec_elapsed
+ .bss           0x2000044a        0x1 rtc.o
+                0x2000044a                log_rtc
+ .bss           0x2000044b        0x0 flash.o
+ *fill*         0x2000044b        0x1 
+ .bss           0x2000044c      0x110 uart1.o
+ .bss           0x2000055c      0x110 uart2.o
+ .bss           0x2000066c       0xf0 printf.o
+ .bss           0x2000075c       0xf0 printf2.o
+ .bss           0x2000084c        0x1 cli.o
+                0x2000084c                do_rtc
+ .bss           0x2000084d        0x0 adc.o
+ .bss           0x2000084d        0x0 leds.o
+ *fill*         0x2000084d        0x3 
+ .bss           0x20000850        0xc ntc.o
+                0x20000850                ntc_avg
+                0x20000854                ntc_err
+ .bss           0x2000085c        0xc simsun.o
+                0x2000085c                dred_val
+                0x2000085d                rblu_val
+                0x20000860                already_on
+                0x20000864                do_simsun
+                0x20000865                fred_val
+ .bss           0x20000868       0x1c sunweb-slave.o
+                0x2000086c                pcnt
+                0x2000086d                rx_cnt
+                0x20000870                plen
+                0x20000874                rx_new
+                0x20000880                attached
+                0x20000881                probed
+ .bss           0x20000884        0x0 dump.o
+ .bss           0x20000884        0x0 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-e_log.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_nan.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsisf.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-ctype_.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strchr.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+ .bss           0x20000884        0x0 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strnlen.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x20000884       0x1c rtc.o
+                0x20000884                rtc_time
+ COMMON         0x200008a0       0xb0 cli.o
+                0x200008a0                argv
+                0x200008c8                argc
+                0x200008cc                buf_len
+                0x200008d0                buf
+ COMMON         0x20000950        0x2 ntc.o
+                0x20000950                ntc_temp
+ *fill*         0x20000952        0x2 
+ COMMON         0x20000954        0xc simsun.o
+                0x20000954                time_dawn
+                0x20000958                time_now
+                0x2000095c                time_dusk
+ COMMON         0x20000960       0x21 sunweb-slave.o
+                0x20000960                rx_buf
+                0x20000970                tx_buf
+                0x20000980                dev_id
+                0x20000984                . = ALIGN (0x4)
+ *fill*         0x20000981        0x3 
+                0x20000984                _ebss = .
+                0x20000984                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000984      0x604 load address 0x08006dbc
+                0x20000988                . = ALIGN (0x8)
+ *fill*         0x20000984        0x4 
+                0x20000988                PROVIDE (end, .)
+                0x20000988                PROVIDE (_end, .)
+                0x20000b88                . = (. + _Min_Heap_Size)
+ *fill*         0x20000988      0x200 
+                0x20000f88                . = (. + _Min_Stack_Size)
+ *fill*         0x20000b88      0x400 
+                0x20000f88                . = ALIGN (0x8)
+
+.userflash      0x08007c00        0x8
+                0x08007c00                . = ALIGN (0x4)
+ *(.USERFLASH)
+ .userflash     0x08007c00        0x8 flash.o
+                0x08007c00                ntc_parms
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2f
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x31 system_stm32f0xx.o
+ .ARM.attributes
+                0x00000031       0x31 main.o
+ .ARM.attributes
+                0x00000062       0x31 power.o
+ .ARM.attributes
+                0x00000093       0x31 clock.o
+ .ARM.attributes
+                0x000000c4       0x31 ports.o
+ .ARM.attributes
+                0x000000f5       0x31 ticker.o
+ .ARM.attributes
+                0x00000126       0x31 rtc.o
+ .ARM.attributes
+                0x00000157       0x31 flash.o
+ .ARM.attributes
+                0x00000188       0x31 uart1.o
+ .ARM.attributes
+                0x000001b9       0x31 uart2.o
+ .ARM.attributes
+                0x000001ea       0x31 printf.o
+ .ARM.attributes
+                0x0000021b       0x31 printf2.o
+ .ARM.attributes
+                0x0000024c       0x31 cli.o
+ .ARM.attributes
+                0x0000027d       0x31 adc.o
+ .ARM.attributes
+                0x000002ae       0x31 leds.o
+ .ARM.attributes
+                0x000002df       0x31 ntc.o
+ .ARM.attributes
+                0x00000310       0x31 simsun.o
+ .ARM.attributes
+                0x00000341       0x31 sunweb-slave.o
+ .ARM.attributes
+                0x00000372       0x31 dump.o
+ .ARM.attributes
+                0x000003a3       0x21 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+ .ARM.attributes
+                0x000003c4       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+ .ARM.attributes
+                0x000003f0       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-e_log.o)
+ .ARM.attributes
+                0x0000041c       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x00000448       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x00000474       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x000004a0       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_nan.o)
+ .ARM.attributes
+                0x000004cc       0x1e d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000004ea       0x1e d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000508       0x1e d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000526       0x1e d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000544       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000570       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .ARM.attributes
+                0x0000059c       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsisf.o)
+ .ARM.attributes
+                0x000005c8       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x000005f4       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x00000620       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x0000064c       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x00000678       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x000006a4       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x000006d0       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x000006fc       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x00000728       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x00000754       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .ARM.attributes
+                0x00000780       0x1e d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x0000079e       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x000007ca       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000007f6       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000822       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x0000084e       0x1b d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000869       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000895       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strnlen.o)
+OUTPUT(simsun.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x6b6c
+ .debug_info    0x00000000      0x234 system_stm32f0xx.o
+ .debug_info    0x00000234      0x257 main.o
+ .debug_info    0x0000048b      0x104 power.o
+ .debug_info    0x0000058f      0x267 clock.o
+ .debug_info    0x000007f6      0x531 ports.o
+ .debug_info    0x00000d27      0x659 ticker.o
+ .debug_info    0x00001380      0x7e6 rtc.o
+ .debug_info    0x00001b66      0x65f flash.o
+ .debug_info    0x000021c5      0x5f4 uart1.o
+ .debug_info    0x000027b9      0x5e9 uart2.o
+ .debug_info    0x00002da2      0x618 printf.o
+ .debug_info    0x000033ba      0x54f printf2.o
+ .debug_info    0x00003909     0x1472 cli.o
+ .debug_info    0x00004d7b      0x3b0 adc.o
+ .debug_info    0x0000512b      0x2e7 leds.o
+ .debug_info    0x00005412      0x35d ntc.o
+ .debug_info    0x0000576f      0x4db simsun.o
+ .debug_info    0x00005c4a      0xc40 sunweb-slave.o
+ .debug_info    0x0000688a      0x274 dump.o
+ .debug_info    0x00006afe       0x6e C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+
+.debug_abbrev   0x00000000     0x1f9f
+ .debug_abbrev  0x00000000       0xf0 system_stm32f0xx.o
+ .debug_abbrev  0x000000f0       0xba main.o
+ .debug_abbrev  0x000001aa       0x8e power.o
+ .debug_abbrev  0x00000238       0xe7 clock.o
+ .debug_abbrev  0x0000031f      0x1ba ports.o
+ .debug_abbrev  0x000004d9      0x1d2 ticker.o
+ .debug_abbrev  0x000006ab      0x1d9 rtc.o
+ .debug_abbrev  0x00000884      0x276 flash.o
+ .debug_abbrev  0x00000afa      0x214 uart1.o
+ .debug_abbrev  0x00000d0e      0x1e5 uart2.o
+ .debug_abbrev  0x00000ef3      0x281 printf.o
+ .debug_abbrev  0x00001174      0x238 printf2.o
+ .debug_abbrev  0x000013ac      0x2cf cli.o
+ .debug_abbrev  0x0000167b      0x17a adc.o
+ .debug_abbrev  0x000017f5       0xe4 leds.o
+ .debug_abbrev  0x000018d9      0x187 ntc.o
+ .debug_abbrev  0x00001a60      0x1a3 simsun.o
+ .debug_abbrev  0x00001c03      0x27e sunweb-slave.o
+ .debug_abbrev  0x00001e81      0x10c dump.o
+ .debug_abbrev  0x00001f8d       0x12 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+
+.debug_loc      0x00000000     0x3c14
+ .debug_loc     0x00000000      0x109 system_stm32f0xx.o
+ .debug_loc     0x00000109      0x209 ports.o
+ .debug_loc     0x00000312       0xaa ticker.o
+ .debug_loc     0x000003bc      0x1b8 rtc.o
+ .debug_loc     0x00000574      0x2e8 flash.o
+ .debug_loc     0x0000085c       0xdd uart1.o
+ .debug_loc     0x00000939      0x145 uart2.o
+ .debug_loc     0x00000a7e      0x8a3 printf.o
+ .debug_loc     0x00001321      0x861 printf2.o
+ .debug_loc     0x00001b82     0x1951 cli.o
+ .debug_loc     0x000034d3       0x21 adc.o
+ .debug_loc     0x000034f4       0x7c leds.o
+ .debug_loc     0x00003570       0x6c ntc.o
+ .debug_loc     0x000035dc      0x18c simsun.o
+ .debug_loc     0x00003768      0x2c8 sunweb-slave.o
+ .debug_loc     0x00003a30      0x1e4 dump.o
+
+.debug_aranges  0x00000000      0x288
+ .debug_aranges
+                0x00000000       0x20 system_stm32f0xx.o
+ .debug_aranges
+                0x00000020       0x20 main.o
+ .debug_aranges
+                0x00000040       0x20 power.o
+ .debug_aranges
+                0x00000060       0x20 clock.o
+ .debug_aranges
+                0x00000080       0x20 ports.o
+ .debug_aranges
+                0x000000a0       0x20 ticker.o
+ .debug_aranges
+                0x000000c0       0x20 rtc.o
+ .debug_aranges
+                0x000000e0       0x20 flash.o
+ .debug_aranges
+                0x00000100       0x20 uart1.o
+ .debug_aranges
+                0x00000120       0x20 uart2.o
+ .debug_aranges
+                0x00000140       0x20 printf.o
+ .debug_aranges
+                0x00000160       0x20 printf2.o
+ .debug_aranges
+                0x00000180       0x20 cli.o
+ .debug_aranges
+                0x000001a0       0x20 adc.o
+ .debug_aranges
+                0x000001c0       0x20 leds.o
+ .debug_aranges
+                0x000001e0       0x20 ntc.o
+ .debug_aranges
+                0x00000200       0x20 simsun.o
+ .debug_aranges
+                0x00000220       0x20 sunweb-slave.o
+ .debug_aranges
+                0x00000240       0x20 dump.o
+ .debug_aranges
+                0x00000260       0x28 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+
+.debug_line     0x00000000     0x1db4
+ .debug_line    0x00000000       0xf9 system_stm32f0xx.o
+ .debug_line    0x000000f9      0x15d main.o
+ .debug_line    0x00000256       0xb4 power.o
+ .debug_line    0x0000030a      0x116 clock.o
+ .debug_line    0x00000420      0x185 ports.o
+ .debug_line    0x000005a5      0x14f ticker.o
+ .debug_line    0x000006f4      0x1a5 rtc.o
+ .debug_line    0x00000899      0x1ba flash.o
+ .debug_line    0x00000a53      0x11c uart1.o
+ .debug_line    0x00000b6f      0x113 uart2.o
+ .debug_line    0x00000c82      0x246 printf.o
+ .debug_line    0x00000ec8      0x227 printf2.o
+ .debug_line    0x000010ef      0x3d8 cli.o
+ .debug_line    0x000014c7       0xf8 adc.o
+ .debug_line    0x000015bf       0xf6 leds.o
+ .debug_line    0x000016b5      0x107 ntc.o
+ .debug_line    0x000017bc      0x149 simsun.o
+ .debug_line    0x00001905      0x2c0 sunweb-slave.o
+ .debug_line    0x00001bc5      0x166 dump.o
+ .debug_line    0x00001d2b       0x89 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
+
+.debug_str      0x00000000      0xfc6
+ .debug_str     0x00000000      0x236 system_stm32f0xx.o
+                                0x27b (size before relaxing)
+ .debug_str     0x00000236      0x10a main.o
+                                0x2b7 (size before relaxing)
+ .debug_str     0x00000340       0x2c power.o
+                                0x1ec (size before relaxing)
+ .debug_str     0x0000036c       0x7b clock.o
+                                0x28e (size before relaxing)
+ .debug_str     0x000003e7      0x11f ports.o
+                                0x374 (size before relaxing)
+ .debug_str     0x00000506      0x2dd ticker.o
+                                0x55a (size before relaxing)
+ .debug_str     0x000007e3      0x151 rtc.o
+                                0x3bb (size before relaxing)
+ .debug_str     0x00000934      0x141 flash.o
+                                0x346 (size before relaxing)
+ .debug_str     0x00000a75       0x9e uart1.o
+                                0x4ed (size before relaxing)
+ .debug_str     0x00000b13       0x61 uart2.o
+                                0x4ed (size before relaxing)
+ .debug_str     0x00000b74       0xac printf.o
+                                0x29c (size before relaxing)
+ .debug_str     0x00000c20       0x14 printf2.o
+                                0x276 (size before relaxing)
+ .debug_str     0x00000c34      0x148 cli.o
+                                0x3d4 (size before relaxing)
+ .debug_str     0x00000d7c       0x5c adc.o
+                                0x2b3 (size before relaxing)
+ .debug_str     0x00000dd8        0x7 leds.o
+                                0x228 (size before relaxing)
+ .debug_str     0x00000ddf       0x55 ntc.o
+                                0x2d1 (size before relaxing)
+ .debug_str     0x00000e34       0x92 simsun.o
+                                0x336 (size before relaxing)
+ .debug_str     0x00000ec6       0xd5 sunweb-slave.o
+                                0x45a (size before relaxing)
+ .debug_str     0x00000f9b       0x2b dump.o
+                                0x225 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 system_stm32f0xx.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 main.o
+ .comment       0x00000000       0x71 power.o
+ .comment       0x00000000       0x71 clock.o
+ .comment       0x00000000       0x71 ports.o
+ .comment       0x00000000       0x71 ticker.o
+ .comment       0x00000000       0x71 rtc.o
+ .comment       0x00000000       0x71 flash.o
+ .comment       0x00000000       0x71 uart1.o
+ .comment       0x00000000       0x71 uart2.o
+ .comment       0x00000000       0x71 printf.o
+ .comment       0x00000000       0x71 printf2.o
+ .comment       0x00000000       0x71 cli.o
+ .comment       0x00000000       0x71 adc.o
+ .comment       0x00000000       0x71 leds.o
+ .comment       0x00000000       0x71 ntc.o
+ .comment       0x00000000       0x71 simsun.o
+ .comment       0x00000000       0x71 sunweb-slave.o
+ .comment       0x00000000       0x71 dump.o
+
+.debug_frame    0x00000000     0x11bc
+ .debug_frame   0x00000000       0x3c system_stm32f0xx.o
+ .debug_frame   0x0000003c       0x2c main.o
+ .debug_frame   0x00000068       0x20 power.o
+ .debug_frame   0x00000088       0xa0 clock.o
+ .debug_frame   0x00000128      0x120 ports.o
+ .debug_frame   0x00000248       0x80 ticker.o
+ .debug_frame   0x000002c8      0x140 rtc.o
+ .debug_frame   0x00000408      0x160 flash.o
+ .debug_frame   0x00000568       0x94 uart1.o
+ .debug_frame   0x000005fc       0x90 uart2.o
+ .debug_frame   0x0000068c       0xe0 printf.o
+ .debug_frame   0x0000076c       0x98 printf2.o
+ .debug_frame   0x00000804      0x13c cli.o
+ .debug_frame   0x00000940       0x48 adc.o
+ .debug_frame   0x00000988       0x70 leds.o
+ .debug_frame   0x000009f8       0xe0 ntc.o
+ .debug_frame   0x00000ad8       0xe4 simsun.o
+ .debug_frame   0x00000bbc      0x160 sunweb-slave.o
+ .debug_frame   0x00000d1c       0x3c dump.o
+ .debug_frame   0x00000d58       0x38 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+ .debug_frame   0x00000d90       0x3c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-e_log.o)
+ .debug_frame   0x00000dcc       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00000df8       0x20 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00000e18       0x20 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_nan.o)
+ .debug_frame   0x00000e38       0x20 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000e58       0x20 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000e78       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x00000ea4       0x3c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .debug_frame   0x00000ee0       0x28 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatunsisf.o)
+ .debug_frame   0x00000f08       0x38 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .debug_frame   0x00000f40       0x3c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .debug_frame   0x00000f7c       0x38 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .debug_frame   0x00000fb4       0x38 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .debug_frame   0x00000fec       0x38 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .debug_frame   0x00001024       0x3c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ .debug_frame   0x00001060       0x3c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .debug_frame   0x0000109c       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .debug_frame   0x000010c8       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+ .debug_frame   0x000010f4       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .debug_frame   0x00001120       0x20 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .debug_frame   0x00001140       0x2c d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strchr.o)
+ .debug_frame   0x0000116c       0x28 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+ .debug_frame   0x00001194       0x28 d:/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strnlen.o)
+
+.debug_ranges   0x00000000      0x580
+ .debug_ranges  0x00000000       0x10 main.o
+ .debug_ranges  0x00000010       0x30 clock.o
+ .debug_ranges  0x00000040       0x18 ticker.o
+ .debug_ranges  0x00000058       0x18 rtc.o
+ .debug_ranges  0x00000070       0x48 flash.o
+ .debug_ranges  0x000000b8       0x30 uart1.o
+ .debug_ranges  0x000000e8       0x30 uart2.o
+ .debug_ranges  0x00000118       0x20 printf.o
+ .debug_ranges  0x00000138       0x20 printf2.o
+ .debug_ranges  0x00000158      0x388 cli.o
+ .debug_ranges  0x000004e0       0x18 simsun.o
+ .debug_ranges  0x000004f8       0x48 sunweb-slave.o
+ .debug_ranges  0x00000540       0x20 dump.o
+ .debug_ranges  0x00000560       0x20 C:\Users\Rene\AppData\Local\Temp\ccp9JoMl.o
